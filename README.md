@@ -20,7 +20,7 @@ You need to annotate your methods in the adapters with @JvmStatic. Ex:
           //your logic here!
     }
 
-If you don't do so, this can lead to really hard tacking bugs. 
+If you don't do so, this can lead to really hard tracking bugs. 
 
 ## Dagger 2
 Don't use implicit type in your DaggerModules. Like this:
