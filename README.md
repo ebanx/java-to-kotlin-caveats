@@ -32,7 +32,10 @@ Don't use implicit type in your DaggerModules. Like this:
 You need to set the type explicitly. 
 
 ## Good practices 
+#### Databinding
 When using Databinding, use ObservableField in Kotlin is a good pratice because you don't have to deal with getters and setters in Kotlin. 
+
+#### Robot Pattern
 
 The Robot Pattern looks a lot better in Kotlin! If you don't this pattern, you can check it out here: https://news.realm.io/news/kau-jake-wharton-testing-robots/. 
 
