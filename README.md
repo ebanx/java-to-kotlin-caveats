@@ -36,7 +36,9 @@ You need to set the type explicitly.
 When using Databinding, use ObservableField in Kotlin is a good pratice because you don't have to deal with getters and setters in Kotlin. 
 
 #### Robot Pattern
-
 The Robot Pattern looks a lot better in Kotlin! If you don't this pattern, you can check it out here: https://news.realm.io/news/kau-jake-wharton-testing-robots/. 
+
+#### Test Coverage
+Substitute your POJOs in Java for data classes in Kotlin will allow your coverage tool to focus in code that contains important logic, instead of POJOs. This allows the dev team to have a clearer idea about how well the code really is
 
 > Written with [StackEdit](https://stackedit.io/).
